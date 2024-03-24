@@ -1,5 +1,6 @@
 Implementação
 
+* Utilizei a Clean Architecture nesse projeto mas dependendo do contexto poderiamos pensar em uma arquitetura Hexagonal para utilização de processos assincronos com microserviços. 
 * Realizada implementação sem utilização de banco de dados pois não possuo uma instancia do SQL Server para utilização nesse momento, realizei a criação de lista em memória para simular todas as operações que seriam feitas em banco de dados.
 * Como não estou utilizando banco de dados não me preocupei com o vinculo entre os objetos Cliente x Logradouro, caso estivesse utilizando o banco teria os Ids dos objetos para garantir a integridade dos dados.
 * Como solução para esse desafio eu utilizaria o Entity Framework Core por ser uma aplicação mais simples e sem muita regra de negocio o que aumentaria a produtividade na construção das classes de repositório.
